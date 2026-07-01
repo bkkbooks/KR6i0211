@@ -1,0 +1,80 @@
+canonical_identifier: bkk:krp/KR6i0211/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0211/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 優婆夷淨行法門經
+  identifiers:
+    krp: KR6i0211
+    cbeta: T14n0579
+    cbeta_old_id: T14n0579
+    authorityid: CA0003810
+    json_key: T0579
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0579.xml
+    old_id: T14n0579
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0211_000-T.yaml, hash: 'sha256:41cfb71dc947f1f915381c267840d4cc8d34500a04cf91bc99ab1cefcf7d8345'}
+  - {seq: 1, filename: KR6i0211_001-T.yaml, hash: 'sha256:040c920213bde3acceab0200d69671737a9ae84177498e5c93e3c67c6b61ce4f'}
+  - {seq: 2, filename: KR6i0211_002-T.yaml, hash: 'sha256:892942328dac18e1009e8dec7c4a613c9967ea34a2126f6d52af59824dd10e8e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0211_000-T.markers.yaml, hash: 'sha256:fc4fe89ea6cccf6555f38364477913354f85f3819b2e47c716d2c7cb821ea0df'}
+  - {seq: 1, role: markers, filename: assets/KR6i0211_001-T.markers.yaml, hash: 'sha256:455cf42f3891528503317658750e626b37456a55b1fc651660c6fb2038fc3e4a'}
+  - {seq: 2, role: markers, filename: assets/KR6i0211_002-T.markers.yaml, hash: 'sha256:37a68ab93eafaab37cee15b960fe0df1461a7a3c532e992e2bab52267c9889dd'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0211_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6793
+  label: 優婆夷淨行法門經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0211_T_001-mulu-1
+    span:
+    - body
+    - 14
+    - 14
+  label: 1 修行品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0211_T_001-mulu-2
+    span:
+    - body
+    - 3356
+    - 3356
+  label: 2 修學品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0211_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7190
+  label: 優婆夷淨行法門經卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0211_T_002-mulu-1
+    span:
+    - body
+    - 4428
+    - 4428
+  label: 3 瑞應品
+  type: mulu
+  level: 1
+hash: sha256:8691f346055db76d1162fff3415b936dfe5dec8b49a9c74a8fc879f0933f420d

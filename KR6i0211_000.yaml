@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0211/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 優婆夷淨行法門經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0579.xml
+    old_id: T14n0579
+hash: sha256:41cfb71dc947f1f915381c267840d4cc8d34500a04cf91bc99ab1cefcf7d8345

@@ -1,0 +1,99 @@
+canonical_identifier: bkk:krp/KR6i0211/v1
+canonical_location: https://kanripo.org/bkk/KR6i0211/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 優婆夷淨行法門經
+  identifiers:
+    alt_id:
+    - T14n0579
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0579.xml
+    old_id: T14n0579
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit4
+- short: 宮
+  label: 宮
+  source_xml_id: wit5
+- short: 知
+  label: 知
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0211_000.yaml, hash: 'sha256:41cfb71dc947f1f915381c267840d4cc8d34500a04cf91bc99ab1cefcf7d8345'}
+  - {seq: 1, filename: KR6i0211_001.yaml, hash: 'sha256:b399aa38b7182243f43e6a54fa3f453c5c8498b1bf06defe44455d8c66e74df4'}
+  - {seq: 2, filename: KR6i0211_002.yaml, hash: 'sha256:bb2bd70f8d212b2a172e68d67780cf6b4524aa9754a80b48127be89b8b07e2ba'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0211_001.markers.yaml, hash: 'sha256:e9f33fc2a75b913ce0d68ca719566d1ef0623748ba6e6063f19e826b251f1b46'}
+  - {seq: 2, role: markers, filename: assets/KR6i0211_002.markers.yaml, hash: 'sha256:380d6702b5913c1b448460bad2eab4afd6c3d3c13f3d5fd10c1cb06832df0aca'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0211_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6793
+  label: 優婆夷淨行法門經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0211_T_001-mulu-1
+    span:
+    - body
+    - 14
+    - 14
+  label: 1 修行品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0211_T_001-mulu-2
+    span:
+    - body
+    - 3356
+    - 3356
+  label: 2 修學品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0211_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7190
+  label: 優婆夷淨行法門經卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0211_T_002-mulu-1
+    span:
+    - body
+    - 4428
+    - 4428
+  label: 3 瑞應品
+  type: mulu
+  level: 1
+hash: sha256:af87ac16f35b1d1343f81a90c0dbb151dba77261234e9dc921714afc97c5ce2a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
